@@ -17,6 +17,7 @@
 		81587A941C8C9CA4002619B2 /* MusicVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81587A931C8C9CA4002619B2 /* MusicVideoTests.swift */; };
 		81587A9F1C8C9CA4002619B2 /* MusicVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81587A9E1C8C9CA4002619B2 /* MusicVideoUITests.swift */; };
 		81587AB11C8CA3BF002619B2 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81587AB01C8CA3BF002619B2 /* APIManager.swift */; };
+		815F40421C9DC91600A47926 /* MusicVideoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815F40411C9DC91600A47926 /* MusicVideoTVC.swift */; };
 		8199403B1C92954A00D9E33C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8199403A1C92954A00D9E33C /* Reachability.m */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		81587A9E1C8C9CA4002619B2 /* MusicVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicVideoUITests.swift; sourceTree = "<group>"; };
 		81587AA01C8C9CA4002619B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81587AB01C8CA3BF002619B2 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		815F40411C9DC91600A47926 /* MusicVideoTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVideoTVC.swift; sourceTree = "<group>"; };
 		819940381C92954900D9E33C /* MusicVideo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicVideo-Bridging-Header.h"; sourceTree = "<group>"; };
 		819940391C92954A00D9E33C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		8199403A1C92954A00D9E33C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				81587A801C8C9CA4002619B2 /* ViewController.swift */,
+				815F40411C9DC91600A47926 /* MusicVideoTVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				81587A7F1C8C9CA4002619B2 /* AppDelegate.swift in Sources */,
 				8199403B1C92954A00D9E33C /* Reachability.m in Sources */,
 				813745AE1C8D5DDF007BA8A0 /* Constants.swift in Sources */,
+				815F40421C9DC91600A47926 /* MusicVideoTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
