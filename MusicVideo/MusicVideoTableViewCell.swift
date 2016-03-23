@@ -24,7 +24,7 @@ class MusicVideoTableViewCell: UITableViewCell {
     
     func updateCell() {
         musicTitle.text = video!.vName
-        rank.text = ("\(video!.vRank)")
+        rank.text = ("#\(video!.vRank)")
         //musicImage.image = UIImage(named: "imageNotAvailable")
         
         if video!.vImageData != nil {
@@ -32,6 +32,7 @@ class MusicVideoTableViewCell: UITableViewCell {
             musicImage.image = UIImage(data: video!.vImageData!)
         } else {
             GetVideoImage(video!, imageView: musicImage)
+            print("Get images in background thread")
         }
     }
     
