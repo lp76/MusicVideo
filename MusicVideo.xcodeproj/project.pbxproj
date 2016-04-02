@@ -19,6 +19,7 @@
 		81587A9F1C8C9CA4002619B2 /* MusicVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81587A9E1C8C9CA4002619B2 /* MusicVideoUITests.swift */; };
 		81587AB11C8CA3BF002619B2 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81587AB01C8CA3BF002619B2 /* APIManager.swift */; };
 		815F40421C9DC91600A47926 /* MusicVideoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815F40411C9DC91600A47926 /* MusicVideoTVC.swift */; };
+		8184FBF41CAA523700A00586 /* MusicVideoDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8184FBF31CAA523700A00586 /* MusicVideoDetailVC.swift */; };
 		8199403B1C92954A00D9E33C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8199403A1C92954A00D9E33C /* Reachability.m */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		81587AA01C8C9CA4002619B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81587AB01C8CA3BF002619B2 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		815F40411C9DC91600A47926 /* MusicVideoTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVideoTVC.swift; sourceTree = "<group>"; };
+		8184FBF31CAA523700A00586 /* MusicVideoDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVideoDetailVC.swift; sourceTree = "<group>"; };
 		819940381C92954900D9E33C /* MusicVideo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicVideo-Bridging-Header.h"; sourceTree = "<group>"; };
 		819940391C92954A00D9E33C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		8199403A1C92954A00D9E33C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 		81587AAD1C8C9EC6002619B2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8184FBF31CAA523700A00586 /* MusicVideoDetailVC.swift */,
 				81587A801C8C9CA4002619B2 /* ViewController.swift */,
 				815F40411C9DC91600A47926 /* MusicVideoTVC.swift */,
 				81193CBA1C9EA11E00EA3D1E /* MusicVideoTableViewCell.swift */,
@@ -329,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81587AB11C8CA3BF002619B2 /* APIManager.swift in Sources */,
+				8184FBF41CAA523700A00586 /* MusicVideoDetailVC.swift in Sources */,
 				81587A811C8C9CA4002619B2 /* ViewController.swift in Sources */,
 				813745B01C8D5EFB007BA8A0 /* MusicVideo.swift in Sources */,
 				81193CBB1C9EA11E00EA3D1E /* MusicVideoTableViewCell.swift in Sources */,
